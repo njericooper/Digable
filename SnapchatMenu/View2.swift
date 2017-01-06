@@ -32,7 +32,7 @@ class View2: UIViewController, UIImagePickerControllerDelegate, UINavigationCont
         previewLayer?.frame = myCameraView.bounds
         
         if !UIAccessibilityIsReduceTransparencyEnabled() {
-            self.view.backgroundColor = UIColor.clear
+            self.view.backgroundColor = UIColor.clear  // sets backround to clear
             
             let blurEffect = UIBlurEffect(style: UIBlurEffectStyle.regular)
             let blurEffectView = UIVisualEffectView(effect: blurEffect)

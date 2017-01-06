@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -14,23 +14,27 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SnapchatMenu" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="wZH-sN-R1d"/>
+                        <viewControllerLayoutGuide type="bottom" id="b5a-gw-PNf"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U8h-Gj-prY">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="U8h-Gj-prY" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="4Zv-SJ-t8j"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="U8h-Gj-prY" secondAttribute="bottom" id="YW2-M5-guH"/>
-                            <constraint firstAttribute="trailing" secondItem="U8h-Gj-prY" secondAttribute="trailing" id="pJ5-W2-Kgo"/>
-                            <constraint firstItem="U8h-Gj-prY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="so3-WA-jzS"/>
+                            <constraint firstItem="U8h-Gj-prY" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="3F2-kS-HLE"/>
+                            <constraint firstItem="b5a-gw-PNf" firstAttribute="top" secondItem="U8h-Gj-prY" secondAttribute="bottom" id="B1M-fT-bTG"/>
+                            <constraint firstAttribute="trailing" secondItem="U8h-Gj-prY" secondAttribute="trailing" id="FDn-u1-5KL"/>
+                            <constraint firstAttribute="trailing" secondItem="U8h-Gj-prY" secondAttribute="trailing" id="H0x-J8-Oyo"/>
+                            <constraint firstItem="U8h-Gj-prY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="dlE-3X-9Yy"/>
+                            <constraint firstItem="U8h-Gj-prY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="hQV-mf-5lb"/>
+                            <constraint firstItem="U8h-Gj-prY" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="mMN-Qj-4Ot"/>
+                            <constraint firstAttribute="bottom" secondItem="U8h-Gj-prY" secondAttribute="bottom" id="y7Y-v6-0NW"/>
                         </constraints>
                     </view>
                     <connections>
@@ -39,7 +43,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.23188405797103" y="136.14130434782609"/>
+            <point key="canvasLocation" x="84.5" y="150.5"/>
         </scene>
     </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
+    </simulatedMetricsContainer>
 </document>

@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     
         
         
-        var v1 : View1 = View1(nibName: "View1", bundle: nil)
+        var v1 : View1 = View1(nibName: "View1", bundle: nil) // sets the screens as variables 
         var v2 : View2 = View2(nibName: "View2", bundle: nil)
         var v3 : View3 = View3(nibName: "View3", bundle: nil)
         
@@ -45,9 +45,10 @@ class ViewController: UIViewController {
         var v3Frame : CGRect = v3.view.frame
         v3Frame.origin.x = 2 * self.view.frame.width
         v3.view.frame = v3Frame
+        //v3.view.frame = .ScaleAspectFit
         //v3.view.sizeToFit = true
         
-        self.scrollView.contentSize = CGSize(width: self.view.frame.width * 3, height: self.view.frame.size.height)
+        self.scrollView.contentSize = CGSize(width: self.view.frame.width * 3, height: self.view.frame.size.height) // sets how many screens you scroll through
         
         self.scrollView.contentOffset = CGPoint(x: self.view.frame.width, y: 0.0)
     }
